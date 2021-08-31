@@ -6,7 +6,7 @@ if question_1 == "left":
     question_lake = input("You go left. You come across a river. How do you cross - do you use a bridge or a horse? ")
     if question_lake.lower() == "bridge":
         fox = input("You crossed successfully. After the bridge is an injured fox. Do you help it? (yes/no) ").lower()
-        if fox.lower() == "yes":
+        if fox == "yes":
             print("The fox tricked you and bit off your arm. Game Over :/")
         else:
             donkey = input("You cautiously avoided the fox. But you're legs are getting tired. There's a donkey nearby,"
